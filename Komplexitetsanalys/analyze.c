@@ -59,7 +59,7 @@ static int findTheTarget(int *arr, int n, const case_t c, const algorithm_t a){
     if(c == best_t)
         return (a == linear_search_t) ? arr[0] : (arr[n / 2 - 1] + arr[n / 2]) / 2;
     else if(c == worst_t)
-        return (a == linear_search_t) ? n + 1 : n - 1; // I Binary serach worst case target värdet måste vara antegen sista eller första elementet i arrayn i det här fallet är n-1 på grund av att vår array börjar från 0 och inte 1 så slut värdet blir (n - 1). 
+        return (a == linear_search_t) ? n + 1 : n - 1;
     else
         return (a == linear_search_t) ? rand() % n : rand() % n;
 }

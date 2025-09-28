@@ -45,7 +45,6 @@ static void ui_menu_options(const char *options[], int num_options)
 
 static void ui_menu()
 { 
-    // TODO: complete menu
     ui_line('=', MENU_WIDTH);
 	const char *options[] = {
 		"Menu\x1b[31m",
@@ -285,7 +284,6 @@ void ui_run()
 			ui_menu();
 		}
 		switch (ui_get_choice()) {
-			// House keeping
 			case 'a':
 				show_menu = true;
 				break;

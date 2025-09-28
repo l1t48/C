@@ -36,7 +36,6 @@ static void quickSortRecursive(int *a, int low, int high){
 
 void bubble_sort(int *a, int n)
 {
-	// TODO: bubble sort
     int swapped = 1;
     for(int i = 0; swapped && i < n - 1; i++){
         swapped = 0;
@@ -52,7 +51,6 @@ void bubble_sort(int *a, int n)
 }
 void insertion_sort(int *a, int n)
 {
-	// TODO: insertion sort
     int temp;
     int i, j;    
     for(i = 1; i < n; i++){
@@ -68,13 +66,11 @@ void insertion_sort(int *a, int n)
 
 void quick_sort(int *a, int n)
 {
-	// TODO: quick sort
     quickSortRecursive(a, 0, n - 1);
 }
 
 bool linear_search(const int *a, int n, int v)
 {
-    // TODO: linear search
     for(int i = 0; i < n; i++){
         if(a[i] == v){
             return true;
@@ -85,7 +81,6 @@ bool linear_search(const int *a, int n, int v)
 
 bool binary_search(const int *a, int n, int v)
 {
-    // TODO: binary search
     int low = 0;
     int high = n - 1;
     while(low <= high){

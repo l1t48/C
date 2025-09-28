@@ -8,7 +8,6 @@
 #define MENU_WIDTH 88
 #define RESULT_ROWS 6
 
-// ui_run starts a terminal-based user interface
 void ui_run();
 
 #endif

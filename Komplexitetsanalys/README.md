@@ -9,35 +9,6 @@ The program serves as a practical tool for understanding algorithm time complexi
 
 ---
 
-## Algorithms
-
-### Bubble Sort
-- **Best case:** O(n) — list is already sorted.  
-- **Worst case:** O(n²) — list is reverse sorted.  
-- **Average case:** O(n²) — randomly ordered list.
-
-### Insertion Sort
-- **Best case:** O(n) — list is already sorted.  
-- **Worst case:** O(n²) — list is reverse sorted.  
-- **Average case:** O(n²) — randomly ordered list.
-
-### Quick Sort
-- **Best case:** O(n log n) — optimal pivot selection.  
-- **Worst case:** O(n²) — poor pivot selection.  
-- **Average case:** O(n log n) — random pivot selection.
-
-### Linear Search
-- **Best case:** O(1) — element is at the start of the list.  
-- **Worst case:** O(n) — element is at the end or not present.  
-- **Average case:** O(n) — element is at a random position.
-
-### Binary Search
-- **Best case:** O(1) — element is in the middle of the list.  
-- **Worst case:** O(log n) — element is at the start or end of the list.  
-- **Average case:** O(log n) — element is at a random position.
-
----
-
 ## Features
 - User-friendly menu for selecting algorithms.  
 - Displays best, worst, and average cases.  

@@ -19,16 +19,16 @@ int read_line(char *buf, int n)
 
 	if (!fgets(buf, n, stdin)) {
 		empty_stream();
-		return 0; // overflow
+		return 0; 
 	}
 
 	buf_size = strlen(buf);
 	if (buf[buf_size-1] != '\n') {
 		empty_stream();
-		return 0; // overflow
+		return 0; 
 	}
 
-	// remove new line
+
 	buf[buf_size-1] = '\0';
 	return buf_size-1;
 }
